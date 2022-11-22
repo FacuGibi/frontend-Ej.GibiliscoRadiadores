@@ -36,7 +36,7 @@ function App() {
             element={
               <>
               <Navbar />
-              <Todos />
+              <Todos baseUrl={baseUrl}/>
               </>
             }
           />
